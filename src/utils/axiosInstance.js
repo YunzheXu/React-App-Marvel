@@ -1,7 +1,7 @@
 import axios from "axios";
 import qs from "qs";
 
-const apiRoot = "https://gateway.marvel.com:443/v1/public/";
+const apiRoot = "https://cors-anywhere.herokuapp.com/https://gateway.marvel.com:443/v1/public/";
 const apiKey = "edcaab04376e3dd7e094ec9c12e7fcdd";
              //"a8cf5d103eeb5389a04dd02ee4877f42";
 // const url = `${apiRoot}/characters?nameStartsWith=${searchQuery}`;
